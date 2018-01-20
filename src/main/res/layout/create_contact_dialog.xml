@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <EditText
+        android:id="@+id/contact_phone_number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contact_phone_number"
+        android:inputType="phone|number"
+        android:textColor="@color/primarytext"
+        android:textColorHint="@color/secondarytext"/>
+
+    <TextView
+        android:id="@+id/add_contact_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_contact_warning"
+        android:textColor="@color/secondarytext"
+        android:textSize="?attr/TextSizeBody"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/your_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_account"
+        android:textColor="@color/primarytext"
+        android:textSize="?attr/TextSizeBody"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/account"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/jabber_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/account_settings_jabber_id"
+        android:textColor="@color/primarytext"
+        android:textSize="?attr/TextSizeBody"
+        android:visibility="gone"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/jid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/account_settings_example_jabber_id"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/primarytext"
+        android:textColorHint="@color/secondarytext"
+        android:visibility="gone"/>
+
+</LinearLayout>
