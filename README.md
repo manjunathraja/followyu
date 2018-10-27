@@ -42,16 +42,16 @@ FollowYu Messegner - an open-source chat messenger app based on conversations
 
 - Note: Product has been shutdown, no more maintained and available on Google PlayStore
 
-# Welcome/Home
+# Welcome
 ![FollowYu Welcome](Welcome.png)
 
 # Contacts
 ![Contacts](Contacts.png)
 
-# Start Chat
+# Chats Home
 ![Start Convrsation](StartConversation.png)
 
-# On going Chat
+# On going conversation
 ![Conversation](Conversation.png)
 
 # App Push Notifications
