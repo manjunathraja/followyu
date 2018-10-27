@@ -41,6 +41,7 @@ FollowYu Messegner - an open-source chat messenger app based on conversations
 - FollowYu Messenger is supported on smartphones running Android 4.0 and above.
 
 - Note: Product has been shutdown, no more maintained and available on Google PlayStore
+- Credits: Conversations and open source community
 
 # Welcome
 ![FollowYu Welcome](Welcome.png)
